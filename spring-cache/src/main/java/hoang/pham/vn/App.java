@@ -11,5 +11,8 @@ public class App {
         System.out.println(userOne);
         User userTwo = userService.getUser(1);
         System.out.println(userTwo);
+        System.out.println(userTwo);
+        System.out.println(userTwo);
+        System.out.println(userTwo);
     }
 }
