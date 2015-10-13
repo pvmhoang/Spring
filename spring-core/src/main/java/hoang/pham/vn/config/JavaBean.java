@@ -16,6 +16,7 @@ public class JavaBeanConfiguration {
     @Bean
     public AccountDao accountDao (){
         AccountDao accountDao = new AccountDaoImpl();
+        AccountDao accountDao1 = new AccountDaoImpl();
         return accountDao;
     }
 
