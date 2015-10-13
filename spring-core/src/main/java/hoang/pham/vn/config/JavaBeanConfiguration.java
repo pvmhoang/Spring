@@ -19,10 +19,10 @@ public class JavaBeanConfiguration {
         return accountDao;
     }
 
-    @Bean
-    public AccountService accountService () {
-        AccountServiceImpl accountService = new AccountServiceImpl();
-        accountService.setAccountDao(accountDao());
-        return accountService;
-    }
+//    @Bean
+//    public AccountService accountService () {
+//        AccountServiceImpl accountService = new AccountServiceImpl();
+//        accountService.setAccountDao(accountDao());
+//        return accountService;
+//    }
 }
